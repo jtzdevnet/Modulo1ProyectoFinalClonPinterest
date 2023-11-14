@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-logo" id="pinterest-icon">
+            <a href="https://www.pinterest.com" title="Pinterest"><img src="./images/logo.png" alt=""></a>
+        </div>
+        <nav id="navbar-pinterest">
+            <ul class="navbar">
+                <li class="home-link">
+                    <a href="#">
+                        <img src="./images/icon-home.png" alt="" class="home-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="create-link"><a href="#">Create</a></li>
+                <li class="nav-search">
+                    <a href="#" class="icon-mobile-search"><img src="./images/icon-magnifier.png" alt="Hidden search bar"></a>
+                    <div class="search-bar">
+                        <input class="finder" type="text" placeholder="Search" name="searchbar">
+                    </div>
+                </li>
+                <li class="icon-link" id="notifications">
+                    <a href="#">
+                        <img src="./images/icon-notification.png" alt="Notifications">
+                        <span class="tooltip">Notifications</span>
+                    </a>
+                </li>
+                <li class="icon-link" id="messages">
+                    <a href="#">
+                        <img src="./images/icon-message.png" alt="Messages">
+                        <span class="tooltip">Messages</span>
+                    </a>
+                </li>
+                <li class="icon-link icon-profile" id="profile-img">
+                    <a href="#">
+                        <img src="./images/profile-pic.png" alt="Profile">
+                        <span class="tooltip">Your Profile</span>
+                    </a>
+                </li>
+                <li class="icon-link icon-dropdown">
+                    <a href="#">
+                        <img src="./images/icon-dropdown.png" alt="Dropdown arrow">
+                        <span class="tooltip">Accounts and more options</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <div class="container">
+            <ul class="images-container">
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-1.jpg" target="_blank">
+                                <img src="./images/image-1.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-2.jpg" target="_blank">
+                                <img src="./images/image-2.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-3.jpg" target="_blank">
+                                <img src="./images/image-3.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-4.jpg" target="_blank">
+                                <img src="./images/image-4.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-5.jpg" target="_blank">
+                                <img src="./images/image-5.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-gif-1.gif" target="_blank">
+                                <img src="./images/image-gif-1.gif" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-5.jpg" target="_blank">
+                                <img src="./images/image-5.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-7.jpg" target="_blank">
+                                <img src="./images/image-7.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-8.jpg" target="_blank">
+                                <img src="./images/image-8.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-9.jpg" target="_blank">
+                                <img src="./images/image-9.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-10.jpg" target="_blank">
+                                <img src="./images/image-10.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-11.jpg" target="_blank">
+                                <img src="./images/image-11.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-12.jpg" target="_blank">
+                                <img src="./images/image-12.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-13.jpg" target="_blank">
+                                <img src="./images/image-13.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-14.jpg" target="_blank">
+                                <img src="./images/image-14.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-15.jpg" target="_blank">
+                                <img src="./images/image-15.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-16.jpg" target="_blank">
+                                <img src="./images/image-16.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-17.jpg" target="_blank">
+                                <img src="./images/image-17.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-18.jpg" target="_blank">
+                                <img src="./images/image-18.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-19.jpg" target="_blank">
+                                <img src="./images/image-19.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-20.jpg" target="_blank">
+                                <img src="./images/image-20.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-21.jpg" target="_blank">
+                                <img src="./images/image-21.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-22.jpg" target="_blank">
+                                <img src="./images/image-22.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-23.jpg" target="_blank">
+                                <img src="./images/image-23.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-24.jpg" target="_blank">
+                                <img src="./images/image-24.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-25.jpg" target="_blank">
+                                <img src="./images/image-25.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-26.jpg" target="_blank">
+                                <img src="./images/image-26.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-27.jpg" target="_blank">
+                                <img src="./images/image-27.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-gif-2.gif" target="_blank">
+                                <img src="./images/image-gif-2.gif" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-6.jpg" target="_blank">
+                                <img src="./images/image-6.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-28.jpg" target="_blank">
+                                <img src="./images/image-28.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-29.jpg" target="_blank">
+                                <img src="./images/image-29.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-30.jpg" target="_blank">
+                                <img src="./images/image-30.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-31.jpg" target="_blank">
+                                <img src="./images/image-31.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-32.jpg" target="_blank">
+                                <img src="./images/image-32.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-image">
+                        <div class="pin-img-wrap">
+                            <a class="pin-link" href="./images/image-33.jpg" target="_blank">
+                                <img src="./images/image-33.jpg" alt="">
+                            </a>
+                            <div class="pin-img-controls">
+                                <a href="#" class="control-profile" title="Profile link">Board</a>
+                                <a href="#" class="control-save" title="Save button">Save</a>
+                                <a href="#" class="control-share" title="Share icon"><img src="./images/icon-share.png"
+                                        alt="Share icon"></a>
+                                <a href="#" class="control-more" title="More options icon"><img src="./images/icon-more.png"
+                                        alt="More options icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+            </ul>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
